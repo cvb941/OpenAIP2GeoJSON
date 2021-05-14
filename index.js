@@ -204,6 +204,7 @@ function doNavaid(inputData, block){
             type:       tempNavaid.$.TYPE,
             country:    tempNavaid.COUNTRY[0],
             id:         tempNavaid.ID[0],
+            name:       tempNavaid.NAME[0],
             latitude :  parseFloat(tempNavaid.GEOLOCATION[0].LAT[0]),
             longitude : parseFloat(tempNavaid.GEOLOCATION[0].LON[0]),
             elev :      parseFloat(tempNavaid.GEOLOCATION[0].ELEV[0]._),
